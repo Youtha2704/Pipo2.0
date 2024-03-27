@@ -30,12 +30,12 @@ export const Equipe4 = () => {
                 </button>
 
                 {isOpen && (
-                    <div className="origin-top-right absolute right-20 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                    <div >
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
 
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Presentation</Link>
-                            <Link to="/festi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Membres</Link>
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Galerie</Link>
+                            <Link to="/prewanted" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">PRESENTATION DE WANTED FC</Link>
+                            <Link to="/membrewanted" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">MEMBRES DE WANTED FC</Link>
+                            <Link to="/galeriewanted" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">GALERIE DE WANTED FC</Link>
                         </div>
                     </div>
                 )}

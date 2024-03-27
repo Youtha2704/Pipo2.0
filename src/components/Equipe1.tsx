@@ -17,7 +17,7 @@ export const Equipe1 = () => {
                 >
                     <span>MANIFICO FC</span>
                     <svg
-                        className="w-4 h-4 ml-2"
+                        className="w-10 h-10 ml-4"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                     >
@@ -30,15 +30,17 @@ export const Equipe1 = () => {
                 </button>
 
                 {isOpen && (
-                    <div className="origin-top-right absolute right-20 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                    <div >
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
 
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Presentation</Link>
-                            <Link to="/festi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Membres</Link>
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Galerie</Link>
+                            <Link to="/premagnifico" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Presentation de Magnifico Fc</Link>
+                            <Link to="/membremagnifico" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Membres de Magnifico Fc </Link>
+                            <Link to="/galeriemagnifico" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Galerie de Magnifico Fc</Link>
                         </div>
                     </div>
+
                 )}
+
             </div>
 
         </div>

@@ -5,14 +5,21 @@ export default {
 
   theme: {
 
-    container: {
-      center: true,
-      padding: '2rem',
-      maxWidth: {
-        default: '800px'
-      }
 
-    },
+    extend: {
+
+      container: {
+        center: true,
+        padding: "3.7rem"
+      },
+      backgroundImage: {
+        'hero-bg': "url('./src/assets/bacg1.jpg')"
+      },
+      fontFamily: {
+        Barlow: "Barlow Condensed",
+        Bellefair: "Bellefair"
+      },
+    }
 
   },
 

@@ -17,7 +17,7 @@ export const Contact = () => {
 
     return (
         <div>
-            <h1 className="font-extrabold text-3xl">Contact</h1>
+            <em className="font-extrabold text-3xl">Contactez Le Pipo2-0</em>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label className="block mt-5" htmlFor="subject">Sujet</label>
                 <input {...register('subject')} className="border" type="text" placeholder="Entrez le Sujet" name="subject" id="subject" />

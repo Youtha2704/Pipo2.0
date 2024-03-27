@@ -17,7 +17,7 @@ export const Equipe5 = () => {
                 >
                     <span>ONGOLA FC</span>
                     <svg
-                        className="w-4 h-4 ml-2"
+                        className="w-6 h-10 ml-2"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                     >
@@ -30,12 +30,12 @@ export const Equipe5 = () => {
                 </button>
 
                 {isOpen && (
-                    <div className="origin-top-right absolute right-20 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                    <div >
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
 
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Presentation</Link>
-                            <Link to="/festi" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Membres</Link>
-                            <Link to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Galerie</Link>
+                            <Link to="/preongola" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">PRESENTATION DE ONGOLA FC</Link>
+                            <Link to="/membreongola" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">MEMBRES DE ONGOLA FC</Link>
+                            <Link to="/galerieongola" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">GALERIE DE ONGOLA FC</Link>
                         </div>
                     </div>
                 )}
