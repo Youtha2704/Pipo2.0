@@ -5,7 +5,7 @@ import { Contact } from "./screens/Contact"
 import { Galerie } from "./screens/Galerie"
 import { SocialLinks } from "./components/SocialLinks"
 import { FestiPipos } from "./screens/FestiPipos"
-import { FaList } from "react-icons/fa6";
+
 import { PreMagnifico } from "./components/Presentations/preMagnifico"
 import { PreLegend } from "./components/Presentations/prelegend"
 import { Invite } from "./components/Presentations/preInvited"
